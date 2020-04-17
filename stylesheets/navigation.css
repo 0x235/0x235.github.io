@@ -1,0 +1,41 @@
+nav a { 
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #2f3f2f;
+    display: block;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+nav div {
+    margin: 0.6em 0.3em;
+    display: inline-block;
+}
+
+nav div a:first-child {
+    box-shadow: -1px 0.5px 4px 1px #777 inset;
+}
+
+nav div a:hover {
+    box-shadow: -1px 0.5px 4px 1px #fff inset;
+}
+
+nav div a:active {
+    box-shadow: -1px 0.5px 4px 1px #777 inset;
+}
+
+@media screen and (min-width: 64em) {
+    .div-navigation {
+            padding: 6rem 6rem; }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .div-navigation {
+            padding: 5rem 6rem; }
+}
+
+@media screen and (max-width: 42em) {
+    .div-navigation {
+            padding: 4rem 4rem; }
+}

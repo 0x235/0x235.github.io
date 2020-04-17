@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #606c71; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-main {
+  color: #fff;
+  height: 100%;
+  text-align: center; }
+
+#large-canvas {
+  position:absolute;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-color: #159959;
+  background-image: linear-gradient(120deg, #155799, #159959);
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+}
+
+.fool-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem; }
+
+.fool-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7; }
+
+.fool-links {
+  padding-top: 3em;
+  font-size: 0.8em;
+}
+
+.fool-links a {
+  color: #333;
+  display: inline-block;
+  margin: 0.35em 0.1em;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-size: 110%;
+  border: 2px solid transparent;
+}
+
+.fool-links a:hover {
+  border-color: #383a3c;
+}
+
+.fool-links a:hover {
+  color: inherit;
+  border-color: initial;
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo a {
+  color: #eee;
+  outline: none;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #333;
+}
+
+@media screen and (min-width: 64em) {
+  .page-main {
+    padding: 5rem 6rem; }
+  .fool-name {
+    font-size: 3rem; }
+  .fool-tagline {
+    font-size: 1.25rem; }
+  .fool-links a {
+    padding: 0.5em 1.2em; } 
+
+  .logo {
+    margin: 0em 2.3em; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-main {
+    padding: 3rem 4rem; }
+  .fool-name {
+    font-size: 2rem; }
+  .fool-tagline {
+    font-size: 1.15rem; }
+  .fool-links a {
+    padding: 0.5em 0.8em; }
+
+  .logo {
+    margin: 0em 1.3em; } 
+  .logo-link {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-main {
+    padding: 2rem 1rem; }
+  .fool-name {
+    font-size: 1.5rem; }
+  .fool-tagline {
+    font-size: 1rem; }
+  .fool-links a {
+    padding: 0.3em 0.6em; }
+
+  .logo {
+    margin: 0em 0.5em; }
+  .logo-link {
+    font-size: 0.7rem; }
+}
